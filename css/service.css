@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+  }
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+  .cards{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+ .serv{
+   border-radius: 50%;
+   padding: 8px;
+   background-color: #fff;
+   color: blue;
+ }
+  .cards h1{
+    font-weight: 600;
+    margin:30px 30px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+ 
+  .services{
+    display: flex;
+    align-items: center;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 2px 3px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+  }
+  .content .icon{
+    font-size: 70px;
+    margin: 16px 0;
+    text-align: center;
+    color: #fff;
+  }
+  .content > *{
+    flex: 1 1 100%;
+  }
+  .content:hover{
+    color: white;
+  }
+  .content:hover a{
+    border-color: white;
+    background: white;
+  }
+  .content-1{
+    border-color: #1DA1F2;
+    background: rgb(79, 231, 79);
+  }
+  .content-2{
+    border-color: #1DA1F2;
+    background: rgb(235, 99, 50);
+  }
+  .content-3{
+    border-color: #1DA1F2;
+    background: #a062c4;
+  }
+  .content-1:hover{
+    border-color:  rgb(67, 219, 174);
+    background: rgb(67, 219, 174);
+  }
+  .content-1:hover a{
+    color: rgb(67, 219, 174);
+  }
+  .content-2:hover{
+    border-color: #E1306C;
+    background: #E1306C;
+  }
+  .content-2:hover a{
+    color: #E1306C;
+  }
+  .content-3:hover{
+    border-color:  rgb(109, 197, 87);
+    background:  rgb(109, 197, 87);
+  }
+  .content-3:hover a{
+    color: #ff0000;
+  }
+  .content h2{
+    font-size: 1.5rem;
+    margin: 16px 0;
+    font-weight: 500;
+    text-align: center;
+    text-transform:capitalize;
+    color:#fff;
+  }
+  .content p{
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 6px 0;
+   
+  }
+  .content ul p{
+    font-size: 1.1rem;
+    color:#fff;
+    padding: 6px 6px;
+    
+    
+  }
+  
+  .content a{
+    margin: 22px 0;
+    background: white;
+    color: rgb(88, 188, 228);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgb(88, 188, 228);
+    padding: 15px 0;
+    border-radius: 25px;
+    text-align: center;
+    transition: .3s ease;
+  }
+  .content a:hover{
+    border-radius: 4px;
+  }
+
+  @media (max-width: 900px) {
+    .services{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+ 
+/*--------*/
+
+/*--------need help and search area---*/
+#iconified{
+    margin: 22px 0;
+    border-radius: 30px;
+}
+.cards .need-help {
+  text-align: center;
+}
+.need-help a{
+    margin: 22px 50px;
+    color: white;
+    padding: 6px 18px;
+    background-color: rgb(9, 105, 196);
+    border: none;
+    text-align: center;
+    border-radius: 30px;
+}
+.need-help i{
+   margin-left: 5px;
+}
+ input.empty {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+}
+.content-4 p{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.content-5 p{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.content-4{
+    border-color: #1DA1F2;
+    background: rgb(231, 143, 180);
+  }
+  .content-5{
+    text-align: center;
+    border-color: #1DA1F2;
+    background: rgb(124, 197, 231);
+  }
+  .content-4:hover{
+    border-color: #1DA1F2;
+    background: rgb(164, 173, 35);
+  }
+  .content-4:hover a{
+    color: #1DA1F2;
+  }
+  .content-5:hover{
+    border-color: #E1306C;
+    background: #41c0e0;
+  }
+  .content-5:hover a{
+    color: #E1306C;
+  }
+  .content img{
+      width: 150px;
+      height: 150px;
+  }
+  .content-4 .icon{
+    width: 150px;
+    height: 150px;
+  }
+ @media only screen and (max-width:770px){
+  .need-help{
+    flex-direction: column;
+  }
+ }
+/*--------end.our-services*/
+ 

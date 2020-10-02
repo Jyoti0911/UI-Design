@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+body{
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+}
+.whyus-area{
+  scroll-snap-align: start;
+}
+   .whyus-area h1{
+      font-weight: 600;
+      color: rgb(19, 17, 17);
+      text-align: center;
+     margin-bottom: 4rem;
+     text-decoration: blue; 
+    }
+  
+   .whyus-area h4{
+     font-size: 1.2rem;
+   }
+  .testi-text {
+    color: #262626;
+    margin-right: 20px; 
+    margin-left: 20px;
+  }
+   .testi-text h4{
+     font-size: 1.2rem;
+     margin-bottom: 10px;
+     text-align: center;
+     color: green;
+     
+   }
+   button{
+     text-align: center;
+     justify-content: center;
+   }
+   .testi-text  span{
+     display: block;
+     font-size: 14px;
+     color: black;
+     margin-bottom: 5px;     
+   }
+   .testi-text p{
+     line-height: 25px;
+     font-size: 16px; 
+     color: black;
+   }
+   .whyus-area{
+     padding: 100px 0;
+     position: relative;
+    
+   }
+
+   .whyus-area:before{
+     position: absolute;
+     content: '';
+     background: #fff;
+     width: 100%;
+     height: 90%;
+     top: 0;
+     left: 0;
+    
+   }
+ 
+   .single-whyus1 h4{
+     color: green;
+    
+  }
+  .single-whyus2 h4{
+    color: tomato;
+  }
+  .single-whyus3 h4{
+   color:rgb(226, 37, 37) ;
+  }
+  
+   .single-whyus1{
+     color: #fff;
+     position: relative;
+     margin: 5px 1px;
+     padding-left: 20px;
+       padding-right: 20px;
+     text-align: center;
+   }
+   .single-whyus2{
+    color: #fff;
+    padding-left: 20px;
+       padding-right: 20px;
+    margin: 5px 1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .single-whyus3{
+    color: #fff;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px 1px;
+    position: relative;
+    text-align: center;
+  }
+  .single-whyus4{
+    color: #fff;
+    padding-left: 20px;
+       padding-right: 20px;
+    margin: 5px 1px;
+    position: relative;
+    text-align: center;
+  }
+  .single-whyus4 h4{
+    color:orangered ;
+   }
+  .whyus-area div.owl-nav{
+     color: rgb(131, 131, 133);
+     display: inline-block;
+   font-size: 20px;
+    height: 80px; 
+   margin-top: -30px;
+   text-align: center; 
+   width: 40px;
+    transition: 0.3s;
+   }
+   .fa-smile{
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: green;
+  }
+   .fa-male{
+     font-size: 100px;
+     margin-bottom: 10px;
+     color:orangered;
+   }
+   .fa-list-ul{
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: tomato;
+  }
+  .fa-home{
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: rgb(226, 37, 37);
+  }
+  
+   .owl-prev, .owl-next{
+     position: absolute;
+     align-items: center;
+   }
+   .whyus-area .owl-prev{
+      left: 15px;
+      bottom:250px;
+      font-size: large;
+    }
+    .whyus-area .owl-next{
+      right:15px;
+      bottom: 250px;
+      font-size: large;
+    }
+   
+  @media only screen and (max-width:700px){
+    .whyus-area{
+      padding: 10px 0px;
+    }
+    .whyus-area .owl-prev{
+      left: 15px;
+      margin-bottom: 50px;
+      font-size: large;
+    }
+    .whyus-area .owl-next{
+      right:15px;
+      margin-bottom: 50px;
+      font-size: large;
+    }
+    .single-whyus1{
+      padding: initial;
+      padding-top: 0px;
+      margin: initial;
+    }
+    .single-whyus2{
+      padding: initial;
+      padding-top: 0px;
+      margin: initial;
+    }
+    .single-whyus3{
+      padding: initial; 
+      padding-top: 0px;
+      margin: initial;
+    }
+    .single-whyus4{
+      padding: initial;
+      padding-top: 0px;
+      margin: initial;
+    }
+   .testi-text{
+     padding: 20px 5px;
+   }
+   .whyus-area{
+     padding: 50px 0;
+   }
+
+  }
+
+
+  @media only screen and (max-width:360px){
+    .whyus-area{
+      padding: 10px 0px;
+    }
+    .single-whyus1{
+      padding: initial; 
+      padding-top: 0px;
+      margin: initial;
+    }
+    .single-whyus2{
+    padding: initial; 
+      padding-top: 0px;
+      margin: initial;
+    }
+    .single-whyus3{
+      padding: initial; 
+      padding-top: 0px;
+      margin: initial;
+    }
+  }
+
+
+
+ .faq-area h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  
+  .accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  .accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+  
+ 
